@@ -114,18 +114,6 @@ class Playlist {
         }  
       }
 
-    // it gives the size of the tree
-    public int size() {
-        Song current = first;
-        int count = 0;
-        while (current != null) {
-            count++;
-            current = current.next;
-        }
-
-        return count;
-    }
-
     // it prints the contains of the list
     public void display(PrintStream ps) {
         Song current = first;
