@@ -258,11 +258,11 @@ class MyApp{
         MyQueue allTheWeeks = new MyQueue(myFiles); // the variable that contain all the song's track from the three weeks
 
           allTheWeeks.sortList();
-          allTheWeeks.display(ps);
-          ps.println();
-          ps.println();
-          ps.println();
           allTheWeeks.subSet("Circles","Dior", ps);
+          ps.println();
+          ps.println();
+          ps.println();
+          allTheWeeks.display(ps);
           ps.close();
     }
    
