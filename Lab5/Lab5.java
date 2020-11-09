@@ -132,7 +132,7 @@ class Playlist {
         if(begin<0 || fin<0) ps.println(" the interval doesn't exist or is not valid!!");
         else {
             int count =1;
-            ps.println(" Using the method subSet to Filter the output From the position "+begin+" to "+fin+"\n");
+            ps.println(" Using the method subSet to Filter the output From "+start+" to "+end+"\n");
             while(current != null ){
 
                 if(count >= begin && count <= fin) ps.println(current.track);
