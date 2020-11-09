@@ -262,6 +262,7 @@ class MyApp{
           ps.println();
           ps.println();
           ps.println();
+          ps.println("   The Play List   \n");
           allTheWeeks.display(ps);
           ps.close();
     }
